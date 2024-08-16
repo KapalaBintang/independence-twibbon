@@ -1,4 +1,8 @@
-<h1>Independence Twibbon</h1>
+<h1 align="center">Independence Twibbon</h1>
+a website for creating a twibbon.
+
+Big thanks to @irfan-za.
+original code: https://github.com/irfan-za?tab=repositories
 
 ## Installation
 
