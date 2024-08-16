@@ -7,11 +7,9 @@ export type TwibbonCanvasProps = {
   hidden?: boolean;
 };
 
-const TwibbonCanvas = forwardRef<HTMLCanvasElement, TwibbonCanvasProps>(
-  (props, ref) => {
-    return <canvas id={props.canvasid} {...props} ref={ref} />;
-  }
-);
+const TwibbonCanvas = forwardRef<HTMLCanvasElement, TwibbonCanvasProps>((props, ref) => {
+  return <canvas id={props.canvasid} {...props} ref={ref} />;
+});
 
 TwibbonCanvas.displayName = "TwibbonCanvas";
 
